@@ -3,8 +3,8 @@ import pandas as pd
 #Haftalik hazirlanan Ambar girislerinin KPI Raporu, 1 hafta icerisinde ne kadarlik mal girisi yapilmis, ne kadar beklemede
 
 # Define the paths to the Excel files
-old_report_path = "C:/Users/semih/OneDrive/Desktop/Semi Klasor/VS Codes/Python/Kasktas Arabia Works/Order Flow Reports/23072024/23072024 Combined Warehouse Report.xlsx"
-new_report_path = "C:/Users/semih/OneDrive/Desktop/Semi Klasor/VS Codes/Python/Kasktas Arabia Works/Order Flow Reports/29072024/29072024 Combined Warehouse Report.xlsx"
+old_report_path = "C:/Users/xxx/xxx/xxx/xxx/xxx/xxx/xxx/xxx/23072024/23072024 Combined Warehouse Report.xlsx"
+new_report_path = "C:/Users/xxx/xxx/xxx/xxx/xxx/xxx/xxx/xxx/23072024/29072024 Combined Warehouse Report.xlsx"
 
 # Load the data from the first sheet of both files
 df_old = pd.read_excel(old_report_path, sheet_name=0)
